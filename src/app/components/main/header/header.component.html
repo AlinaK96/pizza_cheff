@@ -1,0 +1,23 @@
+<header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img src="/images/main/logo.png" alt="Pizza Cheff" class="header__logo-img" />
+        <span class="header__logo-text">PIZZA <br> CHEFF</span>
+      </div>
+  
+      <nav class="header__nav">
+        <a *ngFor="let item of menuItems" [href]="item.link" class="header__nav-link">
+          {{ item.title }}
+        </a>
+      </nav>
+  
+      <button class="header__burger" (click)="toggleMenu()">☰</button>
+    </div>
+  
+    <div class="header__mobile-nav" [class.header__mobile-nav--open]="isMenuOpen">
+      <a *ngFor="let item of menuItems" [href]="item.link" class="header__mobile-link" (click)="toggleMenu()">
+        {{ item.title }}
+      </a>
+    </div>
+</header>
+  
