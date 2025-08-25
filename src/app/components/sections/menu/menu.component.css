@@ -1,10 +1,10 @@
 h2{
-    font-size: 35px;
-    line-height: 55px;
-    color: #bd985c;
-    font-weight: bold;
-    font-family: "Muller Bold";
-    text-align: center;
+  font-size: 35px;
+  line-height: 55px;
+  color: #bd985c;
+  font-weight: bold;
+  font-family: "Muller Bold";
+  text-align: center;
 }
 
 .menu {
@@ -34,40 +34,39 @@ h2{
 }
 
 .pizza__card {
-    background: #fff;
-    padding: 10px;
-    text-align: center;
-    filter: drop-shadow(0px 3px 7.5px rgba(152,152,152,0.2));
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%; 
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  filter: drop-shadow(0px 3px 7.5px rgba(152,152,152,0.2));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .pizza__text {
-    flex: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  flex: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }  
 
 .pizza__card__title{
-    font-size: 18px;
-    line-height: 55px;
-    color: var(--header-text);
-    font-weight: bold;
-    font-family: "Muller Bold";
-    margin: 0;
+  font-size: 18px;
+  line-height: 55px;
+  color: var(--header-text);
+  font-weight: bold;
+  font-family: "Muller Bold";
+  margin: 0;
 }
 
 .pizza__card__desc{
-    font-size: 14px;
-    line-height: 18px;
-    color: #181a1a;
-    font-family: "Muller Regular";
-    margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #181a1a;
+  font-family: "Muller Regular";
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 .pizza__card img {
@@ -80,16 +79,16 @@ h2{
 }
 
 button {
-    background-color: #f2a33c;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 55px;
-    color: #020303;
-    font-weight: bold;
-    font-family: "Muller Bold";
-    width: 90%;
-    transition: all 0.3s ease-in;
+  background-color: #f2a33c;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 55px;
+  color: #020303;
+  font-weight: bold;
+  font-family: "Muller Bold";
+  width: 90%;
+  transition: all 0.3s ease-in;
 }
 
 button:hover{
@@ -108,9 +107,9 @@ button:hover{
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  cursor: pointer;
 }
 
 .lightbox img {
   width:40%;
-  /* height: 90%; */
 }

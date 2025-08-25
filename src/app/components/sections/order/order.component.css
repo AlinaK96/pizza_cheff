@@ -1,0 +1,35 @@
+.order {
+  padding: 10px 0;
+  background: var(--color-bg);
+}
+
+.order__container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.order__content {
+  flex: 1;
+}
+
+.order__image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .order__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .order__image img {
+    max-width: 350px;
+  }
+}
