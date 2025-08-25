@@ -1,11 +1,26 @@
 :root {
-    --color-primary: #f4a261;  
-    --color-secondary: #7a5c3e; 
+    --color-primary: #ffc468;  
+    --color-secondary: #a46b00; 
+
     --color-accent: #e76f51;    
     --color-bg: #fff;
     --color-border: #eee;
-    --color-shadow: rgba(0,0,0,0.1);
+
+    --color-secondary-hover: #e4e0e0;
 
     --container-width: 1200px;
     --container-padding: 20px;
 }
+
+@font-face {
+    font-family: 'Muller Black';
+    src: url('/fonts/Muller/Muller-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Muller Black', sans-serif;
+}
+  
