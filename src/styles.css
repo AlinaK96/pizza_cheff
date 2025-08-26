@@ -42,4 +42,22 @@ body{
     margin: 0;
     padding: 0;
 }
-  
+
+.cart__btn {
+  background-color: var(--color-accent-text);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 55px;
+  color: #020303;
+  font-weight: bold;
+  font-family: "Muller Bold", sans-serif;
+  width: 90%;
+  transition: all 0.3s ease-in;
+}
+
+.cart__btn:hover,
+.cart__btn:active {
+    background: var(--color-accent);
+    color: white;
+}

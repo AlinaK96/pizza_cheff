@@ -47,7 +47,7 @@
   line-height: 24px;
   text-transform: uppercase;
   color: var( --color-accent-text);
-  font-family: "Muller Extra Bold";
+  font-family: "Muller Extra Bold", sans-serif;
   margin: 0;
 }
 
@@ -65,7 +65,7 @@
   line-height: 55px;
   color: #382400;
   font-weight: bold;
-  font-family: "Muller Bold";
+  font-family: "Muller Bold", sans-serif;
   border: none;
   width: 224px;
   height: 60px;
