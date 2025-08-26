@@ -4,6 +4,7 @@
     --color-text: #b99150;
     --color-accent-text: #ffaf18;;
     --header-text: #382400;
+    --placeholder-text:#cba86e;
 
     --color-accent: #e76f51;    
     --color-bg: #fff;
@@ -43,6 +44,37 @@ body{
     padding: 0;
 }
 
+input {
+    width: 330px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid var(--color-text);
+    font-size: 18px;
+    line-height: 45px;
+    color: var(--placeholder-text);
+    font-family: "Muller Regular", sans-serif;
+    outline: none;
+}
+
+input::placeholder {
+  color: var(--placeholder-text); 
+  opacity: 1;    
+  font-family: "Muller Regular", sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+button:disabled {
+  background: #ececec;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .cart__btn {
   background-color: var(--color-accent-text);
   border: none;
@@ -60,4 +92,39 @@ body{
 .cart__btn:active {
     background: var(--color-accent);
     color: white;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.lightbox img {
+  width:40%;
+}
+
+.popup__content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  padding: 25px;
+}
+
+.popup__text{
+  font-size: 18px;
+  line-height: 55px;
+  color: var(--header-text);
+  font-weight: bold;
+  font-family: "Muller Bold", sans-serif;
 }

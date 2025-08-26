@@ -17,11 +17,41 @@
   flex: 1;
 }
 
+.order__title{
+  margin: 0;
+  font-size: 35px;
+  line-height: 45px;
+  color: var(--color-accent-text);
+  font-family: "Muller Extra Bold", sans-serif;
+}
+
+.order__title-accent{
+  color: var(--color-text);
+}
+
+.order__desc{
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-text);
+  font-family: "Muller Regular", sans-serif;
+}
+
 .order__image img {
   max-width: 500px;
   width: 100%;
   height: auto;
 }
+
+form button{
+  width: 100%;
+}
+
+.error {
+  color: var(--header-text);
+  font-size: 14px;
+  font-family: "Muller Bold", sans-serif;
+}
+
 
 @media (max-width: 992px) {
   .order__container {
