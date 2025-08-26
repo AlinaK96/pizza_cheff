@@ -20,7 +20,7 @@ export class OrderComponent {
 
   ngOnInit(): void {
     this.orderForm = this.fb.group({
-      name: ['', [Validators.required, Validators.pattern(/^[^\.]+$/)]], // запрещаем точки
+      name: ['', [Validators.required, Validators.pattern(/^[^\.]+$/)]],
       address: ['', Validators.required],
       phone: ['', [Validators.required, Validators.pattern(/^\+?[0-9]{7,15}$/)]]
     });
