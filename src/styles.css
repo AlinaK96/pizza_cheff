@@ -44,6 +44,11 @@ body{
     padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 input {
     width: 330px;
     padding: 10px;
