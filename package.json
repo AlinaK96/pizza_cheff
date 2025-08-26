@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "deploy": "ng build --configuration production --base-href 'https://AlinaK96.github.io/pizza_cheff/' && npx angular-cli-ghpages --dir=dist/pizza-cheff",
     "test": "ng test"
   },
   "private": true,
@@ -27,6 +28,7 @@
     "@angular/cli": "^18.2.1",
     "@angular/compiler-cli": "^18.2.0",
     "@types/jasmine": "~5.1.0",
+    "angular-cli-ghpages": "^2.0.3",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
